@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication1.Controllers
 {
+    [AllowAnonymous]
     public class GradesStudentController : Controller
     {
         public IActionResult Index()

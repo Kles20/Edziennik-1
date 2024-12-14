@@ -4,6 +4,7 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
+    [AllowAnonymous]
     public class StudentCalendarController : Controller
     {
         // Odczytujemy wydarzenia z globalnego EventStore
