@@ -4,6 +4,7 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
+    [Authorize]
     public class CalendarController : Controller
     {
 
