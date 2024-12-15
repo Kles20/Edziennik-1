@@ -11,3 +11,5 @@ Aby je zainstalować, należy:
 - przejść do zakładki Narzędzia -> Menedżer pakietów NuGet -> Zarządzaj pakietami NuGet rozwiązania...
 - upewnić się że źródło pakietów stanowi nuget.org (a nie np. Visual Studio Offline Packages)
 - przejść do zakładki "Przeglądaj" i zainstalować powyższe pakiety w wersji 8.X
+Po ich zainstalowaniu powinna być możliwość skompilowania programu.
+Przed skompilowaniem programu może pojawić się konieczność otwarcia konsoli menadżera pakietów i wpisania "Update-Database".
